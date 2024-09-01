@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .project-list {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-list h2 {
+            text-align: center;
+        }
+        .project-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .project-list li {
+            margin: 10px 0;
+        }
+        .comment-section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comment-section h2 {
+            text-align: center;
+        }
+        .comment-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .comment-section textarea {
+            width: 80%;
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .comment-section button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+        .comment-section button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio</h1>
+    </header>
+    <nav>
+        <a href="#projects">Projetos</a>
+        <a href="#comments">Comentários</a>
+    </nav>
+    <div class="project-list" id="projects">
+        <h2>Projetos Anteriores</h2>
+        <ul>
+            <li><a href="project1.html">Projeto 1</a></li>
+            <li><a href="project2.html">Projeto 2</a></li>
+        </ul>
+    </div>
+    <div class="comment-section" id="comments">
+        <h2>Comentários</h2>
+        <form>
+            <textarea placeholder="Deixe um comentário . . ."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
